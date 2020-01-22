@@ -1,8 +1,16 @@
+/*
+This is command line program to to insert and delete nodes in a linked list.
+Insertion is done at the beginning,end and after a given node
+Deletion is performed on a given key.
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
+
+//Node structure is declared
 struct node{
     int data;
-    struct node * next;
+    struct node * next;//this will point to next node
 };
 
 //This function enters data at the start of of the linked list
