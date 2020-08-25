@@ -14,9 +14,9 @@ int countTargetDiffSubset(int arr[],int n,int diff)
 	for(int j=1;j<=sum;j++)
 		dp[0][j]=0;
 	
-	for(int i=0;i<=n;i++)
+	for(int i=1;i<=n;i++)
 	{
-		for(int j=0;j<=sum;j++)
+		for(int j=1;j<=sum;j++)
 		{
 			if(arr[i-1]<=j)
 			{
@@ -34,8 +34,8 @@ int countTargetDiffSubset(int arr[],int n,int diff)
 
 int main()
 {
-	int arr[]={};
+	int arr[]={1,1,2,3};
 	int n=sizeof(arr)/sizeof(arr[0]);
-	int target_diff=;
+	int target_diff=1;
 	cout<<countTargetDiffSubset(arr,n,target_diff);
 }
