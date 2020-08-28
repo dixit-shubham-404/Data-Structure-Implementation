@@ -1,5 +1,7 @@
-//Target Sum
-
+/*Target Sum
+	In this problem we have to assign either + or - sign before array elements so that their
+	sum is equal to the given sum.
+*/
 #include<bits/stdc++.h>
 using namespace std;
 
